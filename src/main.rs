@@ -6,7 +6,7 @@ mod lst;
 use glob::glob;
 use clap::Parser;
 use clap::{app_from_crate, arg};
-use hello::file_struct::{file_data, print_output};
+use ls_rust::file_struct::{file_data, print_output};
 use chrono::{DateTime, Local};
 
 
