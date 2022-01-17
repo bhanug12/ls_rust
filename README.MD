@@ -1,17 +1,13 @@
 Functionality:
 
--display: all, h
+- display: long: -l 
+- sort : by size -s, by time modified -t 
+- regex file searcher work! 
 
--sort 
+Next: 
+- print permissions
+- convert size to human readable format 
+- make sort better(?) sorting over vector of struct 
 
--size
 
--regex
-
-
-Steps: 
-
-	Read args (default current dir)
-	get info from fs package -> store in a datastructure 
-	process - sort etc 
-	display -> printing 
+	
